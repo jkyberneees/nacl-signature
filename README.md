@@ -49,5 +49,6 @@ message[1] = 17;
 
 # Tests
 ```batch
+git clone https://github.com/jkyberneees/nacl-signature.git && cd nacl-signature && npm install
 npm test
 ```
