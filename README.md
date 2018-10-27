@@ -27,7 +27,7 @@ const signature = signer.sign('NaCL is amazing!', secretKey);
 
 Verifying signatures:
 ```js
-// verifying a message, given its signature and the server public key
+// verifying a message, given its signature and the sender public key
 if (signer.verify('NaCL is amazing!', signature, publicKey)){
     console.log('Signature is valid!');
 }
