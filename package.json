@@ -1,6 +1,6 @@
 {
   "name": "nacl-signature",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "JavaScript module to sign/verify data using NaCL crypto library (TweetNaCL.js)",
   "main": "index.js",
   "scripts": {
@@ -18,19 +18,17 @@
     "verify"
   ],
   "author": "Rolando Santamaría Masó",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jkyberneees/nacl-signature/issues"
   },
   "homepage": "https://github.com/jkyberneees/nacl-signature#readme",
   "dependencies": {
-    "tweetnacl": "^0",
-    "tweetnacl-util": "^0"
+    "tweetnacl": "^1.0.0",
+    "tweetnacl-util": "^0.15.0"
   },
   "devDependencies": {
-        "chai": "^3",
-        "mocha": "^2",
-        "mocha-traceur": "^2",
-        "traceur": "^0"
-    }
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
 }
