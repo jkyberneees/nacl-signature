@@ -1,6 +1,6 @@
 {
   "name": "nacl-signature",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "JavaScript module to sign/verify data using NaCL crypto library (TweetNaCL.js)",
   "main": "index.js",
   "scripts": {
