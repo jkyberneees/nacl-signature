@@ -1,7 +1,6 @@
 "use strict";
 
 const nacl = require('tweetnacl');
-const assert = require('assert');
 nacl.util = require('tweetnacl-util');
 
 module.exports.sign = (message, secretKey) => {
