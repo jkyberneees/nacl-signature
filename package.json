@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/jkyberneees/nacl-signature#readme",
   "dependencies": {
-    "tweetnacl": "^1.0.1",
-    "tweetnacl-util": "^0.15.0"
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
